@@ -13,7 +13,7 @@ class home{
     <title>Form</title>
 </head>
 <body>
-    
+<form action="process/signup_process.php" method="POST">
     Name <input type="text" name="fullname" id="fullname"><br><br>
     Email <input type="email" name="email" id="email"><br><br>
     Password <input type="password" name="password" id="password"><br><br>
@@ -29,8 +29,8 @@ class home{
         }
         ?>
     </select><br><br>
-    <input type="submit" value="Sign Up">
-
+    <input type="submit" name = "signup" value="Sign Up">
+</form>
 </body>
 </html>
 <?php
