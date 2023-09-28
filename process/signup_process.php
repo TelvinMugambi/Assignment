@@ -28,7 +28,7 @@ if(isset($_POST["signup"])){
         $stmt->bindParam(':country', $country, PDO::PARAM_STR);
 
         if($stmt->execute()){
-            header("Location: ../viewusers.php");
+            header("Location: ../table/viewusers.php");
             exit();
         }else{
             echo "Error in the Query";

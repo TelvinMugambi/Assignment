@@ -1,5 +1,6 @@
 <?php
-require_once "db/conn.php";
+require_once "../db/conn.php";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +8,7 @@ require_once "db/conn.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Users Table</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"

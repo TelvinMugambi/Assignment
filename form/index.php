@@ -2,7 +2,6 @@
 class home{
     public function form(){
 
-    
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +10,7 @@ class home{
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
@@ -19,7 +18,7 @@ class home{
 </head>
 <body>
     <div class = "signup-box">
-        <form action="process/signup_process.php" method="POST">
+        <form action="../process/signup_process.php" method="POST" autocomplete = "off">
             <h1>WELCOME</h1>
             <label for="">Name</label>
             <input type="text" name="fullname" id="fullname"placeholder = "Enter your name">
@@ -46,4 +45,5 @@ class home{
 }
 $Home = new home();
 $Home->form();
+
 ?>
